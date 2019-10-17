@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b88e9474-7acc-41a9-9ab6-1642cbe2aa4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login_main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/login_register.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login_register.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/request.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/request.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +87,7 @@
       <updated>1571129619038</updated>
       <workItem from="1571129620173" duration="52000" />
       <workItem from="1571219920220" duration="301000" />
-      <workItem from="1571274733250" duration="17688000" />
+      <workItem from="1571274733250" duration="22009000" />
     </task>
     <servers />
   </component>
@@ -128,33 +130,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/login_register.min.js</url>
-          <line>31</line>
+          <line>30</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/login_register.min.js</url>
-          <line>53</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/login_register.min.js</url>
-          <line>34</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/login_register.min.js</url>
-          <line>43</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/login_register.min.js</url>
-          <line>48</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
