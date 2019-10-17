@@ -25,10 +25,7 @@
 </head>
 
     <body>
-    <script>
-        init();
-    </script>
-       
+
         <div class="tm-header">
             <div class="container-fluid">
                 <div class="tm-header-inner">
@@ -61,13 +58,18 @@
                         </div>
                         
                     </nav>
-                    <a href="login.html" style="float: right;margin-right: 2rem">登录</a>
+                    <a href="login.html" id="login" style="float: right">登录</a>
+                    <div id="avatar"  class = "avatar">
+<!--                        <div> 点击退出登录</div>-->
+                    </div>
                 </div>
 
 
             </div>            
         </div>
-
+        <script>
+            init();
+        </script>
         <div class="tm-home-img-container">
             <img src="img/tm-home-img.jpg" alt="Image" class="hidden-lg-up img-fluid">
         </div>
