@@ -33,7 +33,13 @@
         }
 
     </script>
-    <div id="logout" > 退出登录</div>
+    <div id="logout" onclick="logout()" > 退出登录</div>
+    <script>
+        function logout() {
+            AV.User.logOut();
+            window.location.href ="index.html";
+        }
+    </script>
 </div>
 
 </body>
