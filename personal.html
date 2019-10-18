@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.15.0/dist/av-min.js"></script>
+    <script src="js/request.min.js"></script>
+
+    <style type="text/css">
+        #logout{
+            font-size: 25px;
+            margin:0 auto;
+            width: 16rem;
+            padding: 10px 10px;
+            background-color: #57b846;
+            border-radius: 25px;
+            font-family: Poppins-Regular;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div style="top: 20%;position: absolute; width: 100%;text-align: center">
+    <img src="img/avatar.jpg" style="width: 12%;height: auto;display: block;margin: 0 auto;"/>
+    <div id="name" style="font-size: 25px;color: black;margin: 2rem"> </div>
+    <script>
+        var currentUser = AV.User.current();
+        if (currentUser) {
+            // 当前有用户
+            document.getElementById("name").innerHTML = currentUser.username;
+        } else {
+            // 当前没有用户
+        }
+
+    </script>
+    <div id="logout" > 退出登录</div>
+</div>
+
+</body>
+
+</html>
+
